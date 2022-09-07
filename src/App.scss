@@ -1,0 +1,267 @@
+@import "~bootstrap/scss/bootstrap";
+
+.submit-button {
+  flex: 1;
+  background-color: #80CED7;
+  padding: 5px 15px;
+  border-radius: 70px;
+  margin-right: 10px;
+  border: 1px solid #80CED7;
+  color: #263D42;
+  cursor: pointer;
+  margin: 0px 100px 0px 0px;
+  width: fit-content;
+  transition-duration: .5s;
+}
+
+.submit-button:hover {
+  background-color: #263D42;
+  color: #CCDBDC;
+  border: 1px solid #263D42;
+  transition-duration: .5s;
+}
+
+
+
+.table {
+
+  overflow-y: scroll;
+  box-shadow: 0 5px 20px -10px #bbb;
+  border-radius:10px;
+  padding: 0px;
+  margin: 0px 0px 0px 10px;
+  height: fit-content;
+  max-height: 610px;
+
+  .table-row:nth-child(2n) {
+    background-color: #CCDBDC50;
+  }
+
+  .table-row:hover {
+    background-color: #63C7B2;
+  }
+  .row-disable{
+    background-color: #C1BAC0!important;
+  }
+  .row-disable:hover{
+    background-color: #63C7B2!important;
+  }
+
+  .table-head {
+    background-color: #263D42;
+    color: #CCDBDC;
+    font-size: medium;
+    text-align: center;
+  }
+
+  tr th {
+    padding: 6px 27px;
+    font-weight: 500;
+    background: #f4f4f4;
+
+  }
+  tr {
+    &:hover {
+      background: rgb(172, 222, 247);
+    }
+  }
+  tr td {
+    padding:5px 20px;
+    border-right: 1px solid #e0dede;
+    border-bottom: 1px solid #e0dede;
+  }
+  .icon {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #08c;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: 500ms;
+    &:hover {
+      color: #000;
+      transform: scale(1.1);
+    }
+  }
+}
+.table-kontrat{
+  width: 75%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.row{
+  margin: 0px !important;
+}
+
+::-webkit-scrollbar-track{
+  border-radius: 10px!important;
+  background-color: transparent!important;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px!important;
+}
+
+table{
+  .table-head-clickable{
+    transition-duration: .5s;
+  }
+  .table-head-clickable:hover{
+    background-color: #CCDBDC;
+    color: #263D42;
+    transition-duration: .5s;
+  }
+}
+
+
+.table-button{
+  display: flex;
+  .table-pagination-button{
+    flex: 1;
+    background-color: #80CED7;
+    border-radius: 70px;
+    border: 1px solid #80CED7;
+    color: #263D42;
+    cursor: pointer;
+    width: fit-content;
+    transition-duration: .5s;
+  }
+  .table-pagination-button:hover{
+    background-color: #263D42;
+    color: #CCDBDC;
+    border: 1px solid #263D42;
+    transition-duration: .5s;
+  }
+  .table-pagination-text{
+    color: #263D42;
+    font-size: medium !important;
+    text-align: center;
+  }
+}
+
+
+.offcanvas-start{
+  top:75px;
+
+}
+.slide{
+  display: flex;
+  flex-direction: row;
+
+  justify-content:space-around;
+}
+.--component-header{
+
+  position: relative;
+}
+.canvas--button{
+  height: 25px;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  transform: translate(-50%,-50%);
+  bottom: 7px;
+  border-radius: 15px;
+  border: 0;
+  background-color:rgb(128, 206, 215);
+  font-size: 24px;
+  p{
+
+    position: absolute;
+    bottom: -18.5px;
+    right: 13px;
+    transition: all .6s;
+  }
+
+
+}
+.--canvas{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.primary{
+  box-shadow: 0;
+  color: #63C7B2;
+  &:hover{
+    color: #63C7B2!important;
+  }
+
+}
+
+.offcanvas-backdrop.show{
+  opacity: 0;
+}
+
+.btn-check:focus{
+  background-color: #63C7B2;
+  border-color: #63C7B2;
+  box-shadow: none!important;
+}
+.btn-check:focus.btn-primary, .btn-primary:focus,.btn,btn:focus{
+  background-color: #63C7B2;
+  border-color: #63C7B2;
+  box-shadow: none!important;
+}
+
+.offcanvas.show{
+  background: transparent;
+}
+.ofcanvas-start.show{
+  display: none!important;
+}
+.btn-check:focus{
+  box-shadow: 0!important;
+}
+.btn{
+  box-shadow: 0!important;
+}
+.btn-close{
+  margin-left: 50px;
+  box-shadow: none!important;
+}
+.offcanvas-header{
+  justify-content: flex-end;
+}
+.btn,.btn-primary{
+  background-color: #63C7B2!important;
+}
+
+.fade.offcanvas-backdrop.show {
+  display: none;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+  .offcanvas-start{
+    top:0px;
+    background-color: white;
+
+  }
+  .offcanvas.show{
+    background: white;
+  }
+  .component-header,.search-box{
+    margin: 0px!important;
+  }
+  .component-header{
+    margin-bottom: 1rem!important;
+  }
+  .--primary.btn.btn-primary{
+    top:320px;
+  }
+}

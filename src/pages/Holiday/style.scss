@@ -1,0 +1,494 @@
+.MuiDialogActions-root.MuiDialogActions-spacing.css-hlj6pa-MuiDialogActions-root{
+  display: none;
+}
+
+.MuiTypography-root.MuiTypography-overline.css-1hbyad5-MuiTypography-root{
+  display: none;
+}
+
+.MuiButtonBase-root.MuiPickersDay-root.Mui-selected.MuiPickersDay-dayWithMargin{
+  background-color: #63C7B2;
+}
+
+.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit.MuiIconButton-sizeMedium.MuiPickersToolbar-penIconButton.MuiPickersToolbar-penIconButtonLandscape.css-z3au5x-MuiButtonBase-root-MuiIconButton-root-MuiPickersToolbar-penIconButton{
+  display: none;
+}
+
+.--primary.btn.btn-primary{
+  height: 45px;
+}
+
+.alert-block{
+  display: block;
+}
+.alert-none{
+  display: none;
+}
+
+.dropdown-menu.show{
+  z-index: 99999999;
+}
+
+.page{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+
+  .right{
+    height: 100%;
+  }
+
+  .right-container{
+    height: 480px;
+  }
+
+  .holiday-list{
+    width: 100%;
+    height: 200px;
+    background-color:#CCDBDC;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .thead--{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .tbody--{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .button-text{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    font-size: 10px;
+  }
+
+  .get-button--{
+    height: 80px;
+    width: 80px;
+    background-color: #263D42;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    top: 550px;
+    position: absolute;
+
+    .Icon{
+      font-size: 60px;
+    }
+
+    &:hover{
+      transform: scale(1.1);
+      background-color: #63C7B2;
+      transition:.2s;
+
+      .Icon{
+        transform: rotate(999999999deg);
+        transition: 1000000s;
+      }
+    }
+}
+
+
+
+  .td--{
+    background-color:#CCDBDC;
+    border: 1px #63C7B2 solid;
+    border-radius: 15px;
+  }
+
+  .th--{
+    background-color: #263D42;
+    color: white;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    margin: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    justify-content: center;
+    display: flex;
+  }
+
+  ul{
+    list-style: none;
+    overflow-y: auto;
+    height: 150px;
+  }
+
+  .cldr{
+    .calendar-hd{
+      padding-top: 54px;
+      background-color: #263D42;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+
+    .calendar-bd{
+      width: 100%;
+      height: 100%;
+      background-color:#CCDBDC;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      overflow-y: scroll;
+
+      .css-1xhj18k{
+        background-color: #CCDBDC;
+      }
+
+      .nav-link{
+        background-color: white;
+        color: black;
+        padding-bottom: 12px;
+        border-radius: 0;
+      }
+
+      .active{
+        background-color: #63C7B2!important;
+        color: white;
+      }
+    }
+  }
+}
+
+.--btn{
+  width: 100%;
+  margin-top: 15px;
+}
+
+.days{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  color: white;
+
+  .ocak-day{
+    width: 40px;
+    height: 40px;
+    border-radius: 45px;
+    background-color: #80CED7;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+  }
+
+  .tik{
+    background-color: #63C7B2;
+    color: black;
+    transition: .5s;
+  }
+
+  .tik-none{
+    background-color: white;
+  }
+
+  span{
+    position: absolute;
+    top: 18px;
+    transform: translate(-50%,-50%);
+  }
+}
+
+.text-input{
+  display: flex;
+  flex-direction: column;
+
+  .input{
+    border-radius: 15px;
+    margin-top: 15px;
+  }
+}
+
+
+
+.component-header{
+  background-color: #263D42;
+  color: #CCDBDC;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 0 !important;
+  padding: 10px 0;
+}
+
+.months{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  color: white;
+}
+
+.month {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #80CED7;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  transition: .3s;
+
+  span{
+    position: absolute;
+    top: 18px;
+    transform: translate(-50%,-50%);
+  }
+
+  &:hover{
+    background-color: #263D42;
+    transform: scale(1.4);
+  }
+}
+
+.day-button{
+  background-color: #CCDBDC;
+  width: 6rem;
+  height: 6rem;
+  border: .5px solid #263D42;
+}
+
+/*açılır kapanır app.scss de olmayan özellikler*/
+
+
+@media screen and (max-width: 986px) {
+  .MuiPickersToolbar-root.MuiDatePickerToolbar-root.css-1tbq6mc-MuiPickersToolbar-root-MuiDatePickerToolbar-root{
+    display: none;
+  }
+
+  .offcanvas.offcanvas-start.show{
+    top: 0;
+    background-color: white;
+  }
+
+  .cldr{
+    width: 500px;
+  }
+
+  .right{
+    width: 180px;
+  }
+
+  .get-button--{
+    height: 50px !important;
+    width: 50px !important;
+    top: 800px !important;
+
+    .button-text{
+      display: none;
+    }
+
+    .Icon{
+      font-size: 35px!important;
+    }
+  }
+}
+
+.offcanvas.offcanvas-start.show {
+  margin-top: 70px;
+  transform: translate(0px,0) !important;
+}
+.offcanvas.offcanvas-start{
+  margin-top: 70px;
+  display:  block !important;
+  transform: translate(-380px,0) !important;
+  transition: .5s;
+  background-color: #f8f9fa;
+  
+}
+
+
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+  background: none;
+  padding: 0;
+ 
+}
+input[type="date"]{
+  padding: 15px;
+}
+.offCanvas--{
+  visibility: visible !important;
+  display: block !important;
+}
+.--primary-none{
+  position: absolute;
+  transform: translate(385px,10px) !important;
+  z-index: 100000;
+  transition: transform .35s ease-in-out;
+  
+  .RiArrowRightSLine{
+    color: #63C7B2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(-180deg) !important;
+    transition: .5s;
+   
+  }
+}
+.--canvas-block{
+  
+  
+  form{
+    display: flex;
+    flex-direction: column;
+
+    input{
+      height: 50px;
+      
+    }
+    .input{
+      border: none;
+      background-color: #CCDBDC;
+      border-radius: 10px !important;
+      
+    }
+    
+    
+    
+    
+    textarea::-webkit-input-placeholder {
+      color: #263D42;
+      font-size: 20px;
+      position: absolute;
+      left: 15px;
+      top: 10px;
+      }
+    .--btn{
+      background-color: #63C7B2;
+      border-radius: 10px;
+      border: none;
+      height: 50px;
+      margin-top: 15px;
+      &:hover{
+        border-radius: 0;
+        border: 2px #63C7B2 solid;
+        background-color: white;
+        transition: .2s;
+      }
+    }
+  }
+
+}
+.btn-close{
+  display: none;
+}
+.patch-block{
+  
+ 
+  
+  width: 15px;
+  background-color: transparent;
+  &::after{
+    content: "";
+    padding-left: 15px;
+    padding-bottom: calc(100vh - 95px);
+    border-right: 2px lightgrey solid;
+    background-color:#f8f9fa;
+  }
+}
+.patch-none{
+  
+}
+.--primary{
+  position: absolute;
+  transform: translate(0,10px);
+  transition: .5s;
+  z-index: 9999999999999;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px !important;
+  background: white;
+  border: none;
+  .RiArrowRightSLine{
+    color: #63C7B2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: .5s;
+  }
+}
+.fade.offcanvas-backdrop.show{
+  opacity: 0;
+}
+
+@media (max-width: 576px) {
+  .offcanvas-start{
+    top:0;
+  }
+
+  .--primary-none{
+   
+  }
+
+ 
+
+  .get-button--{
+    height: 25px !important;
+    width: 25px !important;
+    top: 970px !important;
+
+    .button-text{
+      display: none;
+    }
+
+    .Icon{
+      font-size: 20px !important;
+      transform: translate(-15%,-15%);
+    }
+  }
+
+  .right{
+    width: 0;
+  }
+
+  .offcanvas.show{
+    background: white;
+  }
+
+  .component-header,.search-box{
+    margin: 0 !important;
+  }
+
+  .component-header{
+    margin-bottom: 1rem !important;
+  }
+
+ 
+
+  .cldr{
+    width: 350px;
+    padding-top: 35px;
+  }
+
+  .page{
+    justify-content: center;
+  }
+
+  .MuiGrid-root.MuiGrid-container.MuiGrid-direction-xs-column.MuiPickersToolbar-content.css-d59b2q-MuiGrid-root-MuiPickersToolbar-content{
+    display: none;
+  }
+
+  .MuiPickersToolbar-root.MuiDatePickerToolbar-root.css-1tbq6mc-MuiPickersToolbar-root-MuiDatePickerToolbar-root{
+    display: none;
+  }
+}
